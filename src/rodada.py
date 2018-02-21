@@ -1,6 +1,6 @@
 class Rodada:
     """
-    Distribuição das cartas aos jogadores para iniciar a partida
+    Distribuição de cartas aos jogadores para iniciar a partida
     """
     def __init__(self, artefato):
         """
