@@ -5,4 +5,4 @@ class Artefato:
 
     def partilha(self):
         """entrega artefatos ao jogador desistente"""
-        self.tenda.guarda
+        self.tenda.guarda()
