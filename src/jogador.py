@@ -6,7 +6,7 @@ class Jogador:
         """
         Construção do objeto Jogador.
 
-        :param perigo: Uma referência para o objeto Perigo.
+        :param perigo: Uma referência para o objeto Perigo
         """
         self.perigo = perigo
     def sair (self):
