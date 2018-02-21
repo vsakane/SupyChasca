@@ -4,7 +4,7 @@
         """
         def __init__ (self, carta):
             """
-            apresenta uma ação na mesa do Jogo Inca
+            apresenta ação na mesa do Jogo Inca
             :param carta: uma referência para o objeto carta
             """
             self.carta = carta
