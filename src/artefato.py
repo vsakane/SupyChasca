@@ -3,6 +3,10 @@ class Artefato:
     def __init__(self,tenda):
       self.tenda = tenda
 
-    def partilha(self):
+    def partilha(self, jogador):
         """entrega artefatos ao jogador desistente"""
         self.tenda.guarda()
+
+    def revelese(self, mesa):
+        """ Artefato é mostrado e recolhido pela mesa """
+        self.mesa.recolhe()
