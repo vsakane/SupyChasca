@@ -17,5 +17,5 @@ class joia:
         :return:
         """
         self.decisão()
-        pass
+
 
