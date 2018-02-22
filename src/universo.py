@@ -4,8 +4,13 @@ class Universo:
 
         E onde é se escolhe se sai ou fica no templo.
         """
-        def__init__(self,pass)
-        def universo(self, Templo_universo):
+        def __init__(self):
+            """
+            Constrói o Universo.
+            """
+            pass
+
+        def universo(self, jogo_universo):
             """
 
             :param jogo_universo: retira as cartas.

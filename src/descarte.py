@@ -4,6 +4,7 @@ class Descarte:
 
     Artefatos perdidos são descartados ao fim da rodada. Cartas de perigo repetidas também.
     """
+
     def __init__(self, baralho):
         """
         Constrói o monte de descarte.
