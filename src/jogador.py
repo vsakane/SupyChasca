@@ -17,3 +17,6 @@ class Jogador:
         :return:
         """
         self.perigo.apresentese()
+
+    def executar(self):
+        pass
