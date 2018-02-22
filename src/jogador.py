@@ -1,6 +1,8 @@
 class Jogador:
     """
     A pessoa que participa do jogo do Tesouro Inca.
+
+    Decide as suas ações durante o jogo se sai ou continua no templo quando surge algum perigo.
     """
     def __init__(self, perigo):
         """
@@ -19,4 +21,14 @@ class Jogador:
         self.perigo.apresentese()
 
     def executar(self):
-        pass
+        """
+        Decidir se sai ou continua no templo
+        :return: chamar decisão
+        """
+        self.carta.decide()
+
+    def decidir(self):
+        """
+        Sair do Jogo
+        :return: fora da rodada
+        """
