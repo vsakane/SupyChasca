@@ -14,3 +14,13 @@
             """
 
             pass
+        def virardegrau(self):
+            """
+            Templo mostra Artefato 1
+            Templo mostra Artefato 2
+            Templo mostra Artefato 3
+            Templo mostra Artefato 4
+            Templo mostra Artefato 5
+            :return: Baralho
+            """
+            self.baralho.embaralha
