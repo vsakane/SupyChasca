@@ -2,15 +2,15 @@ from random import shuffle
 
 
 class Baralho:
-"""
-Contém as cartas do jogo exceto as cartas decisão
-"""
-    def __init__(self,baralho):
-        self.baralho = list("abcdefgh")
+    """
+    Contém as cartas do jogo exceto as cartas decisão
+    """
+    def __init__(self):
+        self.deque_de_cartas = list('abcdefgh')
 
     def recebe(self, carta):
         """Prepara deck"""
-        self.baralho.recebe()
+        self.deque_de_cartas.append(carta)
 
     def embaralha(self):
         """
@@ -18,4 +18,4 @@ Contém as cartas do jogo exceto as cartas decisão
         :param self:
         :return:
         """
-        shuffle(self.baralho)
+        shuffle(self.deque_de_cartas)
