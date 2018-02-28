@@ -1,4 +1,4 @@
-class joia:
+class Joia:
     """
     Recompensa recebida no jogo do tesouro Inca
     """
@@ -17,5 +17,16 @@ class joia:
         :return:
         """
         self.decisão()
+
+    def recolhe(self):
+        """
+        quem ganha recolhe as joias
+
+        as joias são recolhidas pelo vencedor
+        :param mesa:
+        :return:
+        """
+        self.jogador.recolhe()
+
 
 

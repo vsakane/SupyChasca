@@ -32,3 +32,16 @@ class Jogador:
         Sair do Jogo
         :return: fora da rodada
         """
+    def recebe(self):
+        """
+        O jogador recebe os tesouros que estavam fora da tenda
+        :return: chamar tenda
+        """
+        self.tenda.guarda()
+    def recolhe(self):
+        """
+        O jogador recolhe as joias
+        :return: ganha a rodada
+        """
+        self.rodada.inicia()
+
