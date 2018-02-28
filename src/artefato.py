@@ -7,6 +7,6 @@ class Artefato:
         """entrega artefatos ao jogador desistente"""
         self.tenda.guarda()
 
-    def revelese(self, mesa):
+    def apresentase(self, mesa):
         """ Artefato é mostrado e recolhido pela mesa """
         self.mesa.recolhe()
