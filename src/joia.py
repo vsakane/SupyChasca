@@ -26,6 +26,7 @@ class joia:
         :param mesa:
         :return:
         """
-        self.decisao()
+        self.jogador.recolhe()
+
 
 
