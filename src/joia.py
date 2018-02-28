@@ -1,4 +1,4 @@
-class joia:
+class Joia:
     """
     Recompensa recebida no jogo do tesouro Inca
     """
