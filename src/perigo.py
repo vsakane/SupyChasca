@@ -11,4 +11,3 @@ class Perigo :
 
         """
         self.perigo.apresentese()
-        pass
