@@ -17,3 +17,10 @@ class Mesa:
 
         pass
 
+    def recolhe (self):
+        """
+        A mesa recolhe as cartas
+        :return: chamar jogo
+        """
+        self.mesa.recolhe()
+
