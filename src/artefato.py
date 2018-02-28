@@ -21,4 +21,4 @@ class Artefato:
         :return: Templo
         """
         self.templo.virardegrau
-
+        self.baralho.recebe()
