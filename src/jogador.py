@@ -45,3 +45,4 @@ class Jogador:
         """
         self.rodada.inicia()
 
+
