@@ -18,4 +18,14 @@ class joia:
         """
         self.decisão()
 
+    def recolhe(self):
+        """
+        quem ganha recolhe as joias
+
+        as joias são recolhidas pelo vencedor
+        :param mesa:
+        :return:
+        """
+        self.decisao()
+
 
