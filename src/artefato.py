@@ -11,7 +11,7 @@ class Artefato:
         """ Artefato é mostrado e recolhido pela mesa """
         self.mesa.recolhe()
 
-    def esconder(self):
+    def esconder(self,templo, baralho):
         """
         Artefato 1 se esconde embaixo do templo
         Artefato 2 se esconde embaixo do templo
@@ -21,3 +21,4 @@ class Artefato:
         :return: Templo
         """
         self.templo.virardegrau
+
