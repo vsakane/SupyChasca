@@ -19,7 +19,7 @@ class Mesa:
 
     def recolhe (self):
         """
-        mesa recolhe cartas
+        A mesa recolhe as cartas
         :return: chamar jogo
         """
         self.mesa.recolhe()
