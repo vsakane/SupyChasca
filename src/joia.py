@@ -22,7 +22,7 @@ class Joia:
         """
         quem ganha recolhe as joias
 
-        as joias são recolhidas pelo vencedor
+        as joias são recolhidas pelo vencedor.
         :param mesa:
         :return:
         """
